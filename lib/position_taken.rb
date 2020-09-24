@@ -1,7 +1,7 @@
 # code your #position_taken? method here!
-def position_taken?(board, position_taken)
+def position_taken?(board, position)
 
-  index = position_taken.to_i - 1
+  index = position.to_i - 1
 
   if board[index] == "   "
     false
